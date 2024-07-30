@@ -1,0 +1,140 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos del header */
+header {
+    background-color: #ff0062;
+    color: #fff0f5;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+header #logo img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+header span {
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(255, 157, 157);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Estilos del main */
+main {
+    padding: 1rem;
+}
+
+main article {
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main article h2 {
+    font-size: 1.5rem;
+    color: #ff0062;
+    margin: 0.5rem 0;
+}
+
+main article p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos de la sección del contador */
+section {
+    background-color: #fff0f5;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    color: #ff0062;
+    margin-bottom: 0.5rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #002200;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p, footer address {
+    font-size: 0.9rem;
+}
+
+/* Ajustes responsive */
+@media (max-width: 414px) {
+    header, footer {
+        padding: 0.5rem 0;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+}
